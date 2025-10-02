@@ -22,4 +22,5 @@ def determine_status(average):
         return "failed"
 average_grade = calculate_average(subject1, subject2, subject3)
 status = determine_status(average_grade)
+
 print(f"Student {name} has {status} with an average grade of {average_grade:.2f}.")
