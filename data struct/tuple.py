@@ -20,3 +20,7 @@ t2 = (4,5,6)
 
 t3 = t1 + t2
 print(3*t3)  # (1, 2, 3, 4, 5, 6)
+
+print (7 in t3)  # False
+print (5 in t3)  # True
+
